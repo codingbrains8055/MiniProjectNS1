@@ -1,3 +1,71 @@
 body{
-    background-color: aqua;
+    font-family: Barlow Semi Condensed;
+    /* background-color: hsl(0, 0%, 81%); */
+    background-color: hsl(210, 46%, 95%);
+    height: 100vh;
+}
+.text-light{
+    color: white;
+}
+.text-dark{
+    color: black;
+}
+.bg-violet{
+    background-color: hsl(263, 55%, 52%);
+}
+
+.bg-grey{
+    background-color: hsl(217, 19%, 35%);
+}
+.bg-white{
+    background-color: hsl(0, 0%, 100%);
+}
+.bg-dark{
+    background-color: hsl(219, 29%, 14%);
+}
+
+.testimonial-container{
+    margin: 10% 10% 0 10%;
+    height: 584px;
+}
+
+.testimonial-card{
+    margin: 15px;
+    height: 100%;
+}
+.testimonial-header{
+    display: flex;
+}
+.testimonial-header-name{
+    padding-left: 10px;
+}
+.testimonial-header-img{
+    border-radius: 50%;
+}
+
+.designation{
+    font-size: 13px;
+    opacity: 50%;
+}
+
+.testimonial-body-heading{
+    padding: 10px 0 10px 0;
+    line-height: normal;
+    font-size: 17px;
+    font-weight: bold;
+}
+.testimonial-body-para{
+    padding: 0 0 10px 0;
+    font-size: 13px;
+    font-weight: 200;
+    opacity: 75%;
+}
+#daniel{
+    background-image: url(assets/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.second{
+    height: 294px;
+    /* height: 100vh; */
 }
